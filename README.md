@@ -4,13 +4,13 @@
 
 Number system converter for Golang
 
-### Installation
+## Installation
 
     go get -u github.com/kenticny/numconvert
 
-### Usage
+## Usage
 
-#### Convert(number int64, radix int64) (string, error)
+### Convert(number int64, radix int64) (string, error)
 
 > notice: radix maximum is 62
 
@@ -25,3 +25,7 @@ if result, err := ncv.Convert(123456, 20); err != nil {
   fmt.Println(result) // f8cg
 }
 ```
+
+## LICENSE
+
+MIT

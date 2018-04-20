@@ -12,12 +12,14 @@ Number system converter for Golang
 
 > notice: radix maximum is 62
 
-    import (
-      ncv "github.com/kenticny/numconvert"
-    )
+```go
+import (
+  ncv "github.com/kenticny/numconvert"
+)
 
-    if result, err := ncv.Convert(123456, 20); err != nil {
-      panic(err)
-    } else {
-      fmt.Println(result) // f8cg
-    }
+if result, err := ncv.Convert(123456, 20); err != nil {
+  panic(err)
+} else {
+  fmt.Println(result) // f8cg
+}
+```

@@ -1,5 +1,7 @@
 # number-converter
 
+![](https://travis-ci.org/kenticny/numconvert.svg?branch=master)
+
 Number system converter for Golang
 
 ### Installation
